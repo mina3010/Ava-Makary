@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AvaMakary.exe" version="1.0.0.6" publicKeyToken="307ccda244167b3b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logoAvaMakary (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AvaMakary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AvaMakary.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AvaMakary.exe" size="749008">
+      <assemblyIdentity name="AvaMakary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>P7RUe5/WG9/eZKFZ7wxx0SkDvz8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AvaMakary.exe.config" size="588">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tmpbRLTPGnGNA+Ih6Z6tsxj4+Cs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="avaMakaryDatabase.mdb" size="1486848" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GlcK+yTK7ifIV0HX+R/4Ac1ta40=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logoAvaMakary (1).ico" size="238718">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Gs2xCdrs++33b9mUqu4xXraI5Ps=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MINAMAGID235\APPLE" issuerKeyHash="7038d1db92178fe8e336269e19f5fd20022a5a73" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vzvPiN8sPhCXYo3he3/pN1QM44Y=</DigestValue></Reference></SignedInfo><SignatureValue>2PiKJz3dbZi2halWNvcnkWeDnSwxyZcTLZhZEA1RdFOIswQtqJrADwRrUwuU156JsW3u22pJ4F3kx0IpEhMDZ79UcPRt7XvscidDzL2DAb17vx+gw32sfTJCFb1S7oEyvylI7gXURzYXxcwU+DljtgTA077KgUZiU/x48m9DKvk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5PvsQPDtoxadf47pJrMU1lnUhSa1NntLus8HaUl1GgnJZoIapJZowQNlVv/0hKMZEENs6QSCA63NLk0dCvuF/yjLrqP/GYMJj/820CtBhNNtDjUiujY/9iQ1wNigkZzmiL+rquIui+IPZOjz07Id+WgduqDQIhYTIeGmFU/xnjk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="86e30c5437e97f7be18d6297103e2cdf88cf3bbf" Description="" Url=""><as:assemblyIdentity name="AvaMakary.exe" version="1.0.0.6" publicKeyToken="307ccda244167b3b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MINAMAGID235\APPLE</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ewV/I5Wkd1S8qLMtq7AnNoJFJYE=</DigestValue></Reference></SignedInfo><SignatureValue>wCwVjSsFnR17I28PJHs8xS8PXD3Tj2PrcL/b+hl9UlKE6rKuGi2WjbroDlEZnFpcTpLeO0AVe39kb9iXSSmpesccHEiEh8e0NZgvvsq771WujzbE46cmmB54jOWxFmQOnodWycEMr1ZP99n+a+ZH/SB4RyJmK++agahffXlpgNc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5PvsQPDtoxadf47pJrMU1lnUhSa1NntLus8HaUl1GgnJZoIapJZowQNlVv/0hKMZEENs6QSCA63NLk0dCvuF/yjLrqP/GYMJj/820CtBhNNtDjUiujY/9iQ1wNigkZzmiL+rquIui+IPZOjz07Id+WgduqDQIhYTIeGmFU/xnjk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQIponAtqrKodGMkk80azHsDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATQBJAE4AQQBNAEEARwBJAEQAMgAzADUAXABBAFAAUABMAEUwHhcNMjIwMjE0MTQzNTUwWhcNMjMwMjE0MjAzNTUwWjAvMS0wKwYDVQQDHiQATQBJAE4AQQBNAEEARwBJAEQAMgAzADUAXABBAFAAUABMAEUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOT77EDw7aMWnX+O6SazFNZZ1IUmtTZ7S7rPB2lJdRoJyWaCGqSWaMEDZVb/9ISjGRBDbOkEggOtzS5NHQr7hf8oy66j/xmDCY//NtArQYTTbQ41Iro2P/YkNcDYoJGc5oi/q6riLoviD2To89OyHfloHbqg0CIWEyHhphVP8Z45AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAk6axqahooIUuoFOxT369vrhWXu9ZHnG2tLIbrfq5vZ4AMcJN109iKENNxHriNteS0Q5ogouRrPRd8txk9uSJPlkxX/XP/wcq3mI1gE42iwG/sZoaYprEsWnJiMhp4sxi62e4O0fU3ERtKZTUXH/1ovloNoANJUtiredIRC5JfRU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
